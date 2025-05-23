@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+     text-align:none;
+    background-color:#0033A0;
+     
+     
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+      .question-container {
+      display: none;
+    }
+    .question-container.active {
+      display: block;
+    }
+
+  .progress-container {
+    margin-bottom: 20px;
+  }
+  #progressBar {
+    height: 20px;
+    background-color: green;
+    width: 0%;
+    transition: width 0.3s;
+  }
+  #progressTrack {
+    background-color: #ddd;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  #timer {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 15px;
+  }
+   #progressText {
+      margin: 15px 0;
+      color: white;
+    }
+    h2{
+        color:#FFD700;
+    }
+    #quizform {
+       border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+      color:black;
+    }
+    #result {
+      color:black;
+      text-align: center;
+      font-size: larger;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .button{
+       padding: 20px 30px;
+  background-color: #4CAF50;  /* green background */
+  color: white;               /* white text */
+  border: none;               /* remove border */
+  border-radius: 5px;         /* rounded corners */
+  font-size: 16px;
+  cursor: pointer;            /* pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  background-color: #45a049;  /* darker green on hover */
+    }
+    .button-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Full screen height to center vertically */
+}
+p{
+  font-size: larger;
+  font-weight: bolder;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+   font-size: larger;
+  font-weight: bolder;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+    
